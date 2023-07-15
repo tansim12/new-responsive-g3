@@ -142,6 +142,15 @@ nav a{
         font-size: 2em;
         
     }
+    .main-banner-1{
+        flex-direction: column;
+    
+    }
+    .main-banner-team-right-text{
+        text-align: center;
+       
+    
+    }
     
 }
 
