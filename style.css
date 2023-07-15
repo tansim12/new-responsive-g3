@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(255, 144, 14, 0.10);
+    height: 120vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+  
+}
+nav{
+    margin: 20px;
+}
+nav a{
+    text-decoration:  none;
+    margin: 20px;
+   
+    
+}
+.navtext{
+    font-size: 1.5rem;
+    margin: 10px;
+}
+
+.banner-1st{
+    margin: 50px auto;
+    
+    width: 60%;
+    text-align: center;
+    
+}
+
+.frist-banner-h1{
+    font-size: 3em;
+    
+}
+.frist-banner-small{
+    width: 80%;
+    margin: auto;
+}
+.btn{
+    margin-top: 15px;
+    padding: 10px 15px ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #FF900E;
+}
+.banner-img{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-img img{
+   
+    width: 70%;
+
+}
+ 
+/* header is complete  */
+
+/* main part start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* risponsive media quare  */
+
+@media screen and (max-width:576px) {
+    .navbar{
+       
+        align-items: center;
+       
+        flex-direction: column;
+      
+    }
+ 
+    nav a{
+        margin: 5px;
+  
+    }
+    .navtext{
+        font-size: 80%;
+    font-weight: 700;
+    
+    }
+    .frist-banner-h1{
+        font-size: 2em;
+        
+    }
+    
+}
+
+@media screen and (min-width:577px) and (max-width:635px) {
+
+    nav a{
+        margin: 10px;
+  
+    }
+
+}
