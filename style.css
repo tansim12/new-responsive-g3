@@ -62,10 +62,52 @@ nav a{
  
 /* header is complete  */
 
-/* main part start */
+/* main part section main banner -1 start */
 
+.main-banner-1{
+    display: flex;
+    width: 70%;
+    margin: 80px auto;
+    gap: 40px;
+    align-items: center;
 
+}
 
+.main-banner-team-img img{
+    width: 100%;
+
+}
+.main-banner-team-img {
+   
+
+}
+.main-banner-team-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5%;
+    
+}
+.main-banner-team-right-text{
+    text-align: left;
+   
+
+}
+.main-banner-team-right-text-h1{
+   margin-bottom: 3%;
+   font-size: 2rem;
+}
+#one{
+    color: gray;
+}
+#two{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+#three{
+    color: #FF900E;
+
+}
+/* main part section main banner -1 done  */
 
 
 
