@@ -110,6 +110,45 @@ nav a{
 /* main part section main banner -1 done  */
 
 
+/* main part section main banner -2 start  */
+.main-banner-2{
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+    background: #FFF;
+    
+}
+.main-banner-2-artical {
+    width: 40%;
+}
+.main-banner-2-artical article {
+    margin-bottom: 20px;
+}
+.main-banner-2-artical-1-h1{
+    margin-bottom: 3%;
+    padding-left: 8px;
+    font-size: 2rem;
+    border-left:5px solid #FF900E;
+}
+.main-banner-2-artical p{
+    /* margin-top: 2%; */
+}
+.main-banner-2 img{
+    height: 80vh;
+}
+.main-banner-2-img-down-div{
+    width: max-content;
+    padding: 30px 60px;
+    background-color: #FF900E ;
+    border-radius: 10px;
+    margin: -7%;
+    position: absolute;
+}
+.main-banner-2-img-down-p-1{
+    font-size: 3rem;
+}
+
+
 
 
 
