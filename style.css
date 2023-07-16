@@ -1,4 +1,7 @@
+
+
 *{
+    width: 100%;
     margin: 0;
     padding: 0;
 }
@@ -113,9 +116,9 @@ nav a{
 /* main part section main banner -2 start  */
 .main-banner-2{
     margin: auto;
-    width: 75vw;
+    width: 90%;
     display: flex;
-    /* justify-content: space-evenly; */
+    
     
     gap: 130px;
     height: 85vh;
@@ -123,7 +126,7 @@ nav a{
     
 }
 .main-banner-2-artical {
-    width: 30vw;
+   
     margin-bottom: 5%;
     
 }
@@ -140,21 +143,26 @@ nav a{
     margin-top: 2%;
 }
 .main-banner-2 img{
-    /* height: 75vh; */
-    width: 30vw;
+    height: 100%;
+    
    
 }
 .main-banner-2-img-down-div{
     width: max-content;
-    padding: 15px 40px;
+    padding: 3% 4%;
     background-color: #FF900E ;
     border-radius: 10px;
     margin: -7%;
     position: absolute;
+    color: white;
 }
 .main-banner-2-img-down-p-1{
     font-size: 3rem;
 }
+.main-banner-2-img-down-p-2{
+    margin-left: 30%;
+}
+
 
 
 
@@ -167,13 +175,14 @@ nav a{
 
 /* risponsive media quare  */
 
-@media screen and (max-width:576px) {
+ @media screen and (max-width:576px) {
     .navbar{
        
         align-items: center;
-       
         flex-direction: column;
-      
+    }
+    nav{
+        text-align: center;
     }
  
     nav a{
@@ -181,6 +190,7 @@ nav a{
   
     }
     .navtext{
+        text-align: center;
         font-size: 80%;
     font-weight: 700;
     
@@ -198,14 +208,55 @@ nav a{
        
     
     }
+    .main-banner-2{
+        flex-direction: column;
+
+    }
+    .main-banner-2-img-down-div{
+        
+        margin: -8% 0 0 20%;
+       
+    }
+    .main-banner-2{
+        gap: 20px;
+    }
     
+    
+   
 }
 
-@media screen and (min-width:577px) and (max-width:635px) {
+
+
+
+
+
+
+
+
+
+ @media screen and (min-width:577px) and (max-width:992px) {
 
     nav a{
-        margin: 10px;
+        margin: 7px;
   
     }
+    .main-banner-2{
+        flex-direction: column;
 
-}
+    }
+    .main-banner-2{
+        gap: 30px;
+    }
+    .main-banner-2-img-down-div{
+        padding: 2% 3%;
+        margin: -8% 0 0 2%;
+    }
+    .main-banner-2 img{
+       
+        width: 50%;
+        
+       
+    }
+    
+
+}  
